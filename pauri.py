@@ -5,6 +5,7 @@ sx = qt.sigmax(); sy = qt.sigmay(); sz = qt.sigmaz()
 
 def commutator(x,y):
     return x*y - y*x
+<<<<<<< HEAD
 
 s0 = qt.Qobj([[1,0],[0,1]])
 
@@ -14,3 +15,5 @@ print(1j*sz)
 
 print(commutator(0.5*sx, 0.5*sy))
 print(1j*0.5*sz)
+=======
+>>>>>>> parent of 98d6e0b (delete)
