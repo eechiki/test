@@ -1,9 +1,0 @@
-diff a/pauri.py b/pauri.py	(rejected hunks)
-@@ -1,7 +0,0 @@
--import qutip as qt
--import numpy as np
--
--sx = qt.sigmax(); sy = qt.sigmay(); sz = qt.sigmaz()
--
--def commutator(x,y):
--    return x*y - y*x
